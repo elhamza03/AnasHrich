@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+nav div{
+    padding: 12px;
+    font-size: 15px;
+}
+nav div a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+nav div img{
+    cursor: pointer;
+    padding-right: 4px;
+}
+nav div#inicio-sesion{
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    padding: 9px 23px;
+    border-radius: 4px;
+}
+nav div#inicio-sesion a#boton-sesion{
+    color: white;
+}
+nav.a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav.a div.main-logo{
+    margin-top: 170px;
+}
+nav.div-search{
+    display: flex;
+    justify-content: center;
+}
+nav.div-search div#a{
+    border: 1px solid #bdc1c6;
+    border-radius: 24px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+}
+
+nav.div-search div#a div img#img-camera{
+    height: 30px;
+    width: 30px;
+}
+nav.div-search div#a input{
+    width: 450px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+nav.div-search div#a div.search-items{
+    padding: 5px;
+}
+nav.botton-divs{
+    justify-content: center;
+    margin-top: 25px;
+}
+nav.botton-divs div button{
+    background-color: #f8f9fa;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav.idiomas div{
+    display: block;
+    margin: auto;
+}
+nav.idiomas div div{
+    align-items: center;
+    color: #4d5156;
+    font-size: small;
+}
+
+nav.idiomas div div a{
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #1a0dab;
+}
+footer.b{
+    background-color: #f2f2f2;
+}
+footer.b{
+    background-color: #f2f2f2;
+    position: fixed;
+	width: 100%;
+	height: 65px;
+	bottom: 0;
+    padding: 15px 30px;
+    color: #70757a;
+}
+footer#z{
+    position: fixed;
+	width: 100%;
+    height: 45px;
+    bottom: 0px;
+    border-top: 1px solid #dadce0;
+}
+footer#z div{
+    display: flex;
+    justify-content: center;
+}
+footer#z div div.footer-divs{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+footer#z div div#central-footer div#c{
+    height: 100%;
+    width: 800px;
+    margin-top: 10px;
+}
+footer#z div div#central-footer div#c div a{
+    color: #70757a;
+    text-decoration: none;
+}
+footer#z div div.footer-divs a{
+    color: #70757a;
+    text-decoration: none;
+}
+
+footer#z div div#central-footer div#c img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
